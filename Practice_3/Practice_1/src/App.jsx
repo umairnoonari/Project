@@ -22,10 +22,7 @@ const NetflixSeries=()=>{
   const age=17
   // let canWatch="Not Available"
   // if(age>=18) canWatch="Watch Now"
-  const canWatch=()=>{
-    if(age>=18) return "Watch Now"
-    return "Not Available"
-  }
+  
   const Genre=()=>{
     const genre="RomCom"
     return genre
