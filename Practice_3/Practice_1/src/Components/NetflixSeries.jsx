@@ -3,9 +3,9 @@ import { SeriesCard } from "./SeriesCard"
 const NetflixSeries=()=>{
     return(
         <ul style={{listStyle:"none"}}>
-           {seriesData.map((itm)=>{
-            return <SeriesCard key={itm.id} curElem={itm}/>
-           })}
+           {seriesData.map((itm)=>(
+            <SeriesCard key={itm.id} curElem={itm}/>
+            ))}
         </ul>
     )
 }
