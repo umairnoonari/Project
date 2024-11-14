@@ -1,6 +1,6 @@
-export const SeriesCard=({curElem})=>{
+export const SeriesCard=({data})=>{
     // const {curElem}=props 
-    const {img_url,name,rating,description,genre,cast,watch_url}=curElem 
+    const {img_url,name,rating,description,genre,cast,watch_url}=data
     return(
     <li>
         <div>
