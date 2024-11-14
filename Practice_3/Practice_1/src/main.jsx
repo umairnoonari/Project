@@ -6,7 +6,7 @@ import { Practices } from './Practices.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Practices></Practices>
-    {/* <App/> */}
+    {/* <Practices></Practices> */}
+    <App/>
   </StrictMode>,
 )
